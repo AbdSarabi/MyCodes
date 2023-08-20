@@ -121,14 +121,10 @@ padding-right: 30px;
 
 }
 
-.bios-container {
-    display: ;
-    justify-content: center;
-    align-items: flex-start;
-}
+
 
 .bio {
-    background-color: white;
+    background-color: rgb(229, 223, 223);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
