@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+font-family: 'Poppins', sans-serif;
+margin :0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+ header{
+
+    background-color: rgb(204, 148, 79);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+ }
+.logo{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 1.8em;
+    
+}
+.navigation a{
+color: black;
+text-decoration: none;
+font-weight: 400;
+font-size: 1.1em;
+padding-left: 30px;
+}
+.navigation a:hover{
+    color: #4542ad;
+}
+section{
+    padding: 100px 200px;
+
+}
+.mainpage {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background: url(images/myphoto.JBEG.jpeg) no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixd;
+}
+
+ .mainpage h2 { 
+    color:black;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.mainpage h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4542ad;
+    font-size:2em;
+    font-weight:500 ;
+
+}
+.mainpage h3{
+    color: darkslategrey;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.mainbtns{
+    color: rgb(255, 30, 30);
+    background-color: rgb(192, 155, 155);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 300;
+    display: inline-block;
+    padding: 10px 30px;
+    letter-spacing: .5px;
+    border-radius: 10px;
+    margin-bottom: 60px;  
+    transition: 0.7s ease; 
+    
+}
+ .mainbtns:hover{
+    transform: scale(1.1);
+ }
+
+ .social a{
+    color: rgb(205, 176, 30);
+padding-right: 30px;  
+  font-size: 2em ;
+    
+
+
+ }
+
+ .footer{
+    background-color: antiquewhite;
+    color: black;
+    padding: 2.5em;
+    display: flex;
+    justify-content: space-between;
+
+ }
+.foott{
+    font-size: 1.2em;
+    font: weight 300;
+    padding: 1.1em;
+
+}
+.sociall a{
+    color: black;
+    font-size: 2em;
+    padding: .5em;
+
+
+}
+
+.bios-container {
+    display: ;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bio {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+}
+
+.bio h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.bio p {
+    margin: 10px 0 0;
+    color: #666;
+}
+
